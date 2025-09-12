@@ -106,7 +106,7 @@ function App() {
           </div>
           <div style={styles.messageInputContainer}>
             <input
-              placeholder="Type abhiram message..."
+              placeholder="Type message..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               onKeyDown={(e) => {
