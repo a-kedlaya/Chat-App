@@ -120,7 +120,7 @@ function App() {
       )}
 
       <footer style={styles.footer}>
-        Created by <strong>Abhiram</strong> using AI 🤖
+        Created by <strong>Abhiram</strong> 
       </footer>
     </div>
   );
