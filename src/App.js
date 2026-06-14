@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import io from 'socket.io-client';
 import axios from 'axios';
 
-const socket = io('https://chat7-l7uc.onrender.com');
+const socket = io('https://chat-app-backend-2-hftu.onrender.com');
 
 function App() {
   const [room, setRoom] = useState('');
